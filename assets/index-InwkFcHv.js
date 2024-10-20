@@ -81,8 +81,8 @@ flex flex-row items-center py-0 pr-[16px] pl-[8px]\r
         sm:top-[243.56px] `,src:ld,alt:""}),l.jsx("p",{className:`absolute w-[95%] h-[87px] top-[265.58px]\r
          opacity-70 left-[4%] bottom-[1px] text-lg	  \r
         font-normal font-great	text-[#515B6F] \r
-        lg:w-[512px]  `,children:"Great platform for the job seeker that searching for new career heights and passionate about startups."}),l.jsx(id,{}),l.jsx("img",{className:` sm:hiddden md:hidden lg:flex   absolute w-[501px]\r
-      h-[567px] left-[692px] top-[10px] animate-up-down ease-in-out duration-300 `,src:sd,alt:""})]}),cd=()=>l.jsxs("div",{id:"home",className:`home w-screen h-[722px] \r
+        lg:w-[512px]  `,children:"Great platform for the job seeker that searching for new career heights and passionate about startups."}),l.jsx(id,{}),l.jsx("img",{className:` hidden lg:flex   lg:absolute lg:w-[501px]\r
+      lg:h-[567px] lg:left-[692px] lg:top-[10px] lg:animate-up-down lg:ease-in-out `,src:sd,alt:""})]}),cd=()=>l.jsxs("div",{id:"home",className:`home w-screen h-[722px] \r
          flex-none order-1 grow-0 `,children:[l.jsx(Qf,{}),l.jsx(ud,{})]}),md=()=>l.jsxs("div",{className:`patterns absolute\r
         left-0 right-0 top-0 bottom-0\r
         w-screen h-[722px] bg-[#F8F8FD]\r
