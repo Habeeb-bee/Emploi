@@ -13,18 +13,20 @@ import maze from './Img/maze.svg';
 
 const Latest = () =>{
     return (
-        <div id='latest' className="latest w-screen h-[1508px] relative md:h-[877px]  ">
+        <div id='latest' className="latest w-screen h-[1508px] relative md:h-[877px] lg:mb-[400px]  ">
         <div className="content flex flex-col items-start 
-        gap-[24px] absolute  w-full h-full px-[2vw]  top-[96px] ">
+        gap-[24px] absolute  max-w-full h-full px-[2vw]  top-[26px]
+        lg:top-[400px] lg:h-[633px] lg:ml-[5%] lg:py-[50px]  ">
         
         <div className="title  h-[38px] ">
-          <h3 className="text font-semibold font-serif	text-3xl text-[#25324B]">
+          <h3 className="text font-semibold font-serif	text-3xl text-[#25324B]
+          lg:text-5xl ">
           Latest <span className="text-[#26A4FF]">jobs open</span> 
           </h3>
         </div>
 
         <div className="list flex flex-col items-start p-0 
-        gap-[16px] w-full h-[1310px] sm:w-[90vw] md:flex-row md:flex-wrap   ">
+        gap-[16px] w-[90vw] h-[1310px] sm:w-[90vw] md:flex-row md:flex-wrap   ">
 
      {/* Nomad */}
         <div className="jobs flex flex-col items-start

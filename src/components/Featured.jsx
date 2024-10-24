@@ -22,10 +22,12 @@ const Featured = () => {
     return (
         <div className="featured flex flex-col items-start
         py-[40px] px-[16px] gap-[24px]
-        w-screen h-[475px] md:h-[1234px]  "> 
+        w-screen h-[475px] md:h-[1234px]
+        lg:h-[633px] lg:ml-[5%] lg:max-w-[1180px]   "> 
 
         <h3 className="disc w-[220px] h-[38px]
-        text-3xl font-semibold text-[#25324B] font-serif">Featured
+        text-3xl font-semibold text-[#25324B] font-serif
+        lg:w-[50%] lg:pb-[50px] lg:text-5xl">Featured
          <span className="text-[#26A4FF] "> jobs</span></h3>
 
          <div className="list flex flex-row
@@ -534,7 +536,8 @@ p-0 gap-[16px] w-[144px] h-[26px] md:hidden ">
 </div>
 
 <div className="button flex flex-row justify-end items-center
-p-0 gap-[16px] w-[144px] h-[26px] hidden md:absolute md:right-[16px] md:flex ">
+p-0 gap-[16px] w-[144px] h-[26px] hidden md:absolute md:right-[16px] md:flex
+lg:right-[70px] ">
     <div className="text font-semibold	text-base text-center text-[#4640DE] ">See more</div>
     <img className='w-[24px] h-[24px] text-[#4640DE]
      ' src={button} alt="" />

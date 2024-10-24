@@ -15,7 +15,7 @@ const Cta = () => {
         lg:h-[230px] lg:top-[165px] lg:left-[54px]  ">
           <h3
             className="  h-[76px] px-[10px] font-semibold font-serif text-3xl	flex items-center	
-            text-center text-[#fff] lg:h-[106px] lg:w-[319px] lg:text-5xl lg:p-0  ">
+            text-center text-[#fff] lg:text-start lg:h-[106px] lg:w-[319px] lg:text-5xl lg:p-0  ">
             Start posting jobs today
           </h3>
           <h3
@@ -28,7 +28,7 @@ const Cta = () => {
           <div className="button flex
           flex-row items-center justify-center bg-[#fff]	
           py-[12px] px-[24px] w-[95%] 
-          h-[50px] gap-[10px] sm:w-[75%] ">
+          h-[50px] gap-[10px] sm:w-[75%] lg:w-[179px] ">
             <div className="caption 
             w-[131px] h-[26px] font-bold text-base text-center 
             text-[#4640DE]	">Sign up for free</div>

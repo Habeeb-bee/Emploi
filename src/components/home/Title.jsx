@@ -14,7 +14,7 @@ const Title = () => {
          pt-[16px] pb-[32px] px-[4%] gap-[23px] left-0 right-0 top-[70px] bottom-[1.44%]
          lg:w-1/2 lg:left-[5%] lg:top-[90px]  ">
       <div className="discover absolute w-[95%] h-[159px] left-[4%] top-[16px] 
-      lg: ">
+       ">
         <h2
           className="not-italic font-serif not-italic font-semibold text-5xl leading-[53px]
             text-[#25324B] sm:text-6xl	  ">

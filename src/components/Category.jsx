@@ -16,26 +16,27 @@ import button from './Img/button.svg';
 
 const Category = () => {
     return (
-        <div className="category mt-[60px] flex flex-col items-start pt-0 px-[16px]
-        pb-[40px] gap-[24px] w-screen h-[936px] bg-[#fff] 
-        sm:w-[95vw] md:h-[1036px] lg:h-[633px]	 ">
+        <div className="category mt-[60px] flex flex-col items-start  px-[16px]
+        py-[40px] gap-[24px] w-screen h-[936px] bg-[#fff] 
+        sm:w-[95vw] md:h-[1036px] lg:max-w-[1180px] lg:h-[633px] lg:ml-[5%]	 ">
       <h3 className=" w-full h-[38px]
       font-semibold	text-3xl text-[#25324B] font-serif
-      lg:text-5xl ">Explore by 
+      lg:text-5xl lg:ml-[1.5%] lg:w-[50%] ">Explore by 
       <span className="text-[#26A4FF]" > category</span> </h3> 
 
       <div className="list flex flex-col items-start p-0 gap-[16px] 
-      w-full h-[784px] md:flex-row md:flex-wrap lg:mt-[35px]  ">
+      w-full h-[784px] md:flex-row md:flex-wrap lg:mt-[35px] lg:w-[98%]
+      lg:ml-[1.5%]  ">
 
      <div className="design box-border flex flex-row items-center p-[16px]
      gap-[32px] w-full h-[84px] border-2 border-solid border-[#D6DDEB] md:w-[274px] md:h-[214px]
-     md:flex-col md:items-start md:p-[22px]  ">
+     md:flex-col md:items-start md:p-[22px] hover:bg-[#4640DE]  ">
      <img className='Icon' src= {design} alt="" />
      <div className="category-title flex flex-col justify-center
      items-start p-0 w-full  h-[52px] ">
 
       <h5 className=' h-[24px] 
-      font-semibold  text-xl text-[#25324B] cursor-default	' >Design</h5>
+      font-semibold  text-xl text-[#25324B] cursor-default 	' >Design</h5>
       <div className="jobs-avaliable cursor-pointer	 flex flex-row
       justify-between items-center p-0 gap-[16px]
        h-[26px]  w-full ">
@@ -196,7 +197,8 @@ const Category = () => {
 
       </div>
       <div className="button flex flex-row justify-end items-center
-      p-0 gap-[16px] w-[144px] h-[26px] cursor-pointer md:absolute md:right-[16px] md:flex ">
+      p-0 gap-[16px] w-[144px] h-[26px] cursor-pointer md:absolute md:right-[16px] md:flex
+      lg:right-[70px]  ">
         <div className="show w-[104px] h-[26px] font-semibold 	text-base	
         items-center text-[#4640DE] "> Show all jobs</div>
         <img className='w-[24px] h-[24px] ' src={button} alt="" /> </div>

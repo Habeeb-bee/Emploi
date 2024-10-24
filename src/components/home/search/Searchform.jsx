@@ -67,12 +67,12 @@ setActive(!active);
   return (
     <div
       className="search absolute top-[300px] left-[4%] flex flex-col
-    items-start p-0  gap-[16px] w-[90vw] h-[251px] mt-[40px] z-10
+    items-start p-0  gap-[16px] w-[90vw] h-[251px] mt-[70px] z-10
     lg:w-[852px] lg:h-[131px] lg:items-start  ">
       <form
         onSubmit={submitEvent}
         className="search-box bg-[#FFFFFF]  flex flex-col 
-         justify-center items-center py-[7px] px-[16px] w-full h-[183px] shadow-SB lg:h-[89px] lg:flex-row ">
+         justify-center items-center mt-[20px] py-[7px] px-[16px] w-full h-[183px] shadow-SB lg:h-[89px] lg:flex-row ">
         <div
           className="job-title
 flex flex-row items-center py-0 pr-[16px] pl-[8px]
@@ -137,7 +137,7 @@ flex flex-row items-center py-0 pr-[16px] pl-[8px]
           className="flex flex-row  justify-center
           items-center py-[14px] px-[27px] gap-[10px]
                        w-full h-[57px] bg-[#4640DE] mt-[10px] 
-                       lg:w-[209px] "
+                       lg:w-[200px] lg:h-[50px] "
           type="submit">
           <h2
             className="

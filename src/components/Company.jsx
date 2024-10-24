@@ -10,20 +10,21 @@ const Company = () => {
     return (
     <div id='browse' className="company flex flex-col
     items-start py-[40px]
-    px-[16px] gap-[32px] w-screen h-[317px] md:h-[170px] ">
+    px-[16px] gap-[32px] w-screen h-[317px] md:h-[170px]
+    lg:ml-[5%] lg:max-w-[1180px]  ">
         <h3 className="
         company-text
          h-[29px]
         text-lg	font-normal font-great	
         leading-7 text-[#202430]
-        opacity-50	">Companies we helped grow</h3>
+        opacity-50 lg:ml-[1.5%]	">Companies we helped grow</h3>
 
         <div className="featured-company 
-        w-full h-[176px] ">
+        w-full h-[176px] lg:w-[90%] "> 
 
-            <div className="companys-logos grid grid-cols-2 gap-[65px] 
-            justify-around items-start p-0 md:grid-cols-5
-            w-full h-[112px]  px-[16px] ">
+            <div className="company-logos grid grid-cols-2 gap-[65px] 
+            justify-around items-start md:grid-cols-5
+            w-full h-[112px]  px-[16px]  ">
         <div className="company-box grid place-items-center	 text-center transition-transform hover:-translate-y-1 ">
         <img className="   w-[154px] h-[40px]  " src={vodafone} alt="" />
         </div>
