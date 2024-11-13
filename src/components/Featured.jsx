@@ -21,18 +21,21 @@ import button from './Img/button.svg';
 const Featured = () => {
     return (
         <div className="featured flex flex-col items-start
-        py-[40px] px-[16px] gap-[24px]
+        py-[40px] pl-[6.2%] gap-[24px]
         w-screen h-[475px] md:h-[1234px]
-        lg:h-[633px] lg:ml-[5%] lg:max-w-[1180px]   "> 
+        lg:max-w-full 
+        lg:py-[50px]    
+        xl:h-[700px]   "> 
 
-        <h3 className="disc w-[220px] h-[38px]
+        <h3 className="disc  h-[38px]
         text-3xl font-semibold text-[#25324B] font-serif
-        lg:w-[50%] lg:pb-[50px] lg:text-5xl">Featured
+         xl:pb-[50px] lg:text-5xl">Featured
          <span className="text-[#26A4FF] "> jobs</span></h3>
 
          <div className="list flex flex-row
          items-start p-0 gap-[16px] w-full h-[283px] overflow-x-scroll 
-          hide-scrollbar  md:flex-wrap  md:overflow-visible
+          hide-scrollbar  md:flex-wrap  md:overflow-visible 
+
           ">
 
         {/*Revolt */}

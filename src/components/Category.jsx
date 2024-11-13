@@ -16,32 +16,32 @@ import button from './Img/button.svg';
 
 const Category = () => {
     return (
-        <div className="category mt-[60px] flex flex-col items-start  px-[16px]
-        py-[40px] gap-[24px] w-screen h-[936px] bg-[#fff] 
-        sm:w-[95vw] md:h-[1036px] lg:max-w-[1180px] lg:h-[633px] lg:ml-[5%]	 ">
+        <div className="category mt-[60px] flex flex-col items-start 
+        py-[40px] gap-[24px] w-screen h-[936px]  px-[5%]
+        sm:w-[95vw] md:h-[1036px] lg:w-full lg:ml-[1.2%] xl:max-w-[1180px] xl:h-[933px] 	 ">
       <h3 className=" w-full h-[38px]
       font-semibold	text-3xl text-[#25324B] font-serif
-      lg:text-5xl lg:ml-[1.5%] lg:w-[50%] ">Explore by 
+      lg:text-5xl   ">Explore by 
       <span className="text-[#26A4FF]" > category</span> </h3> 
 
       <div className="list flex flex-col items-start p-0 gap-[16px] 
-      w-full h-[784px] md:flex-row md:flex-wrap lg:mt-[35px] lg:w-[98%]
+      w-full h-[784px] md:flex-row md:flex-wrap lg:mt-[35px] xl:w-[98%]
       lg:ml-[1.5%]  ">
 
      <div className="design box-border flex flex-row items-center p-[16px]
      gap-[32px] w-full h-[84px] border-2 border-solid border-[#D6DDEB] md:w-[274px] md:h-[214px]
-     md:flex-col md:items-start md:p-[22px] hover:bg-[#4640DE]  ">
+     md:flex-col md:items-start md:p-[22px] group hover:bg-[#4640DE]  ">
      <img className='Icon' src= {design} alt="" />
      <div className="category-title flex flex-col justify-center
      items-start p-0 w-full  h-[52px] ">
 
       <h5 className=' h-[24px] 
-      font-semibold  text-xl text-[#25324B] cursor-default 	' >Design</h5>
+      font-semibold  text-xl text-[#25324B] cursor-default group-hover:text-[#fff] 	' >Design</h5>
       <div className="jobs-avaliable cursor-pointer	 flex flex-row
       justify-between items-center p-0 gap-[16px]
        h-[26px]  w-full ">
         <div className="text w-full h-[26px] 
-        text-base	font-normal text-[#7C8493]	  ">235 jobs available</div>
+        text-base	font-normal text-[#7C8493] group-hover:text-[#fff]	  ">235 jobs available</div>
         <img className=' my-0 mx-auto w-[24px] h-[24px] ' src={arrow} alt="" />
       </div>
 
@@ -197,8 +197,8 @@ const Category = () => {
 
       </div>
       <div className="button flex flex-row justify-end items-center
-      p-0 gap-[16px] w-[144px] h-[26px] cursor-pointer md:absolute md:right-[16px] md:flex
-      lg:right-[70px]  ">
+      p-0  w-[144px] h-[26px] cursor-pointer md:absolute md:right-[16px] md:flex
+      lg:right-[100px]  ">
         <div className="show w-[104px] h-[26px] font-semibold 	text-base	
         items-center text-[#4640DE] "> Show all jobs</div>
         <img className='w-[24px] h-[24px] ' src={button} alt="" /> </div>

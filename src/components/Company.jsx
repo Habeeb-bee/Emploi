@@ -10,8 +10,8 @@ const Company = () => {
     return (
     <div id='browse' className="company flex flex-col
     items-start py-[40px]
-    px-[16px] gap-[32px] w-screen h-[317px] md:h-[170px]
-    lg:ml-[5%] lg:max-w-[1180px]  ">
+    px-[5%] gap-[32px] w-screen h-[317px] md:h-[170px]
+     lg:max-w-full lg:left-[5%] ">
         <h3 className="
         company-text
          h-[29px]

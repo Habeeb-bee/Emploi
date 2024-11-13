@@ -46,8 +46,9 @@ const Title = () => {
      
      <Searchform  />
 
-     <img className=' hidden lg:flex   lg:absolute lg:w-[501px]
-      lg:h-[567px] lg:left-[692px] lg:top-[10px] lg:animate-up-down lg:ease-in-out ' src={man} alt="" />
+     <img className=' hidden xl:flex   lg:absolute lg:w-[501px]
+      lg:h-[567px] lg:left-[50vw] lg:top-[10px] lg:animate-up-down lg:ease-in-out
+       ' src={man} alt="" />
      
 
 
