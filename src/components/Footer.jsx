@@ -139,7 +139,7 @@ py-[12px] px-[24px] gap-[10px] w-[131px] h-[50px] text-[#fff] ">
      gap-[24px] h-[106px] w-full ">
           
           <div className="divider w-[95%] items-center 
-          h-0 border-2 border-solid	border-white opacity-10	lg:w-[85%]
+          h-0 border-2 border-solid	border-white opacity-10	xl:w-[85%]
           xl:absolute xl:top-[385px]  
           2xl:w-[88%]"></div>
 

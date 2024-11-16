@@ -30,18 +30,18 @@ const Category = () => {
 
      <div className="design box-border flex flex-row items-center p-[16px]
      gap-[32px] w-full h-[84px] border-2 border-solid border-[#D6DDEB] md:w-[274px] md:h-[214px]
-     md:flex-col md:items-start md:p-[22px] group hover:bg-[#4640DE]  ">
+     md:flex-col md:items-start md:p-[22px]    ">
      <img className='Icon' src= {design} alt="" />
      <div className="category-title flex flex-col justify-center
      items-start p-0 w-full  h-[52px] ">
 
       <h5 className=' h-[24px] 
-      font-semibold  text-xl text-[#25324B] cursor-default group-hover:text-[#fff] 	' >Design</h5>
+      font-semibold  text-xl text-[#25324B] cursor-default  	' >Design</h5>
       <div className="jobs-avaliable cursor-pointer	 flex flex-row
       justify-between items-center p-0 gap-[16px]
        h-[26px]  w-full ">
         <div className="text w-full h-[26px] 
-        text-base	font-normal text-[#7C8493] group-hover:text-[#fff]	  ">235 jobs available</div>
+        text-base	font-normal text-[#7C8493] 	  ">235 jobs available</div>
         <img className=' my-0 mx-auto w-[24px] h-[24px] ' src={arrow} alt="" />
       </div>
 

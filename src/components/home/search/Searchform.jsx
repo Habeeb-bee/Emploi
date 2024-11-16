@@ -20,7 +20,7 @@ const Searchform = () => {
 
   const changeEvent = (value) => {
     setLocationData(value); //passing the inputed value to the setLocationData
-    console.log(value);
+   
 
     const result = countryData.filter((inputLocation) => {
       return (

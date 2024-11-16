@@ -24,8 +24,10 @@ const Featured = () => {
         py-[40px] pl-[6.2%] gap-[24px]
         w-screen h-[475px] md:h-[1234px]
         lg:max-w-full 
-        lg:py-[50px]    
-        xl:h-[700px]   "> 
+        lg:mt-[50px]
+        lg:mb-[70px]    
+        xl:h-[700px]
+        2xl:mt-[50px]   "> 
 
         <h3 className="disc  h-[38px]
         text-3xl font-semibold text-[#25324B] font-serif

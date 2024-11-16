@@ -8,15 +8,16 @@ import maze from './Img/maze.svg';
 
 
 
-
-
-
 const Latest = () =>{
     return (
-        <div id='latest' className="latest w-screen h-[1508px] relative md:h-[877px] lg:mb-[40px]  ">
+        <div id='latest' className="latest w-screen h-[1508px] relative md:h-[877px] md:mt-[10vh] 
+        lg:-mt-[15vh]
+        lg:mb-[40px] 
+        xl:mt-[35vh]
+        2xl:mt-0  ">
         <div className="content flex flex-col items-start 
         gap-[24px] absolute  max-w-full h-full pl-[6.2%]  top-[26px]
-        md:top-[100px] lg:h-[633px]  lg:py-[50px]  ">
+        md:top-[100px] lg:h-[633px]  lg:py-[50px]   ">
         
         <div className="title  h-[38px] ">
           <h3 className="text font-semibold font-serif	text-3xl text-[#25324B]
