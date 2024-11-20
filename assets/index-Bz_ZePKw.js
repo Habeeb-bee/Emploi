@@ -81,7 +81,7 @@ flex flex-row items-center py-0 pr-[16px] pl-[8px]\r
         sm:top-[243.56px] `,src:ld,alt:""}),l.jsx("p",{className:`absolute w-[95%] h-[87px] top-[265.58px]\r
          opacity-70 left-[4%] bottom-[1px] text-lg	  \r
         font-normal font-great	text-[#515B6F] \r
-        lg:w-[512px]  `,children:"Great platform for the job seeker that searching for new career heights and passionate about startups."}),l.jsx(id,{}),l.jsx("img",{className:` hidden xl:flex   lg:absolute lg:w-[501px]\r
+        lg:w-[512px]  `,children:"Great platform for the job seekers searching for new career heights and passionate about startups."}),l.jsx(id,{}),l.jsx("img",{className:` hidden xl:flex   lg:absolute lg:w-[501px]\r
       lg:h-[567px] lg:left-[50vw] lg:top-[10px] lg:animate-up-down lg:ease-in-out\r
        `,src:sd,alt:""})]}),cd=()=>l.jsxs("div",{id:"home",className:`home w-screen h-[722px] \r
          flex-none order-1 grow-0 overflow-hidden `,children:[l.jsx(Qf,{}),l.jsx(ud,{})]}),md=()=>l.jsxs("div",{className:`patterns absolute\r
