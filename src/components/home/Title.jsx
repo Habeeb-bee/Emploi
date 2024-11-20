@@ -40,7 +40,7 @@ const Title = () => {
          opacity-70 left-[4%] bottom-[1px] text-lg	  
         font-normal font-great	text-[#515B6F] 
         lg:w-[512px]  ">
-        Great platform for the job seeker that searching for new career heights
+        Great platform for the job seekers searching for new career heights
         and passionate about startups.
       </p>
      
